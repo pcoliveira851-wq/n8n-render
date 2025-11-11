@@ -1,16 +1,11 @@
 {
   "name": "n8n-render",
   "version": "1.0.0",
-  "description": "Instância n8n deployada no Render",
   "scripts": {
-    "start": "n8n start"
+    "start": "n8n start",
+    "build": "echo 'Skipping build step'"
   },
   "dependencies": {
     "n8n": "^1.62.0"
-  },
-  "engines": {
-    "node": "22.x"
-  },
-  "license": "MIT"
+  }
 }
-
