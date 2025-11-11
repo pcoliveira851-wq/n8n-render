@@ -1,3 +1,16 @@
-git add package.json
-git commit -m "fix: enforce Node 22.x for Render deploy"
-git push origin master
+{
+  "name": "n8n-render",
+  "version": "1.0.0",
+  "description": "Instância n8n deployada no Render",
+  "scripts": {
+    "start": "n8n start"
+  },
+  "dependencies": {
+    "n8n": "^1.62.0"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "license": "MIT"
+}
+
