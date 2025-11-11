@@ -1,0 +1,11 @@
+{
+  "name": "n8n-render",
+  "version": "1.0.0",
+  "description": "n8n rodando no Render",
+  "scripts": {
+    "start": "npx n8n start --port $PORT"
+  },
+  "dependencies": {
+    "n8n": "^1.118.2"
+  }
+}
